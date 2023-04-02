@@ -1,0 +1,112 @@
+body {
+    background-color: #DBDBDB;
+}
+
+#wrapper {
+    @import: url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    display: flex;
+}
+
+.info {
+    height: 160px;
+    width: 21%;
+    margin: 5px 0px 5px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    background-color: black;
+
+}
+
+.nav {
+    height: 60%;
+    margin: 5px 0px 5px 5px;
+    margin-left: 5px;
+    background-color: #DBDBDB;
+    width: 85%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+h1,
+h5,
+h6 {
+    margin-left: 5px;
+}
+
+.icon {
+    height: 45px;
+    width: 45px;
+}
+
+div>img {
+    width: 35px;
+    height: 35px;
+}
+
+.education {
+    display: flex;
+    margin-top: 15px;
+}
+
+.wrap2 {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.title {
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: medium;
+}
+
+.info2 {
+    margin-left: 20px;
+}
+
+.info2 h5 {
+    font-weight: lighter;
+    margin: 0px
+}
+
+.skills {
+
+width: 200px;
+display: flex;
+flex-direction: row;
+    
+}
+.iskills {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  color: #DBDBDB;
+}
+.wrap3 {
+    background-color: #DBDBDB;
+    margin-right: 50px
+}
+
+div.nav>div {
+    margin-left: 20px;
+}
+
+img {
+    filter: invert(99%) sepia(5%) saturate(0%) hue-rotate(151deg) brightness(89%) contrast(90%);
+}
